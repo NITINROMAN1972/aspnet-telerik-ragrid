@@ -1,0 +1,73 @@
+﻿
+
+
+
+
+
+#GridTest th.custom-header-style {
+    background-color: #425ad1 !important;
+    color: white !important; /* Set text color to ensure visibility on the background */
+}
+
+
+.text-bg-custom {
+    background-color: #425ad1;
+}
+
+/*dropdown select2 load*/
+.select2-selection__arrow {
+    height: 26px;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    width: 20px;
+    transform: translateY(-50%); /* Vertically center the arrow */
+}
+
+.select2-selection__arrow b {
+    border-color: #425ad1 transparent transparent transparent;
+    border-style: solid;
+    border-width: 5px 4px 0 4px;
+    height: 0;
+    left: 50%;
+    margin-left: -4px;
+    margin-top: -2px;
+    position: absolute;
+    top: 50%;
+    width: 0;
+}
+
+.btn-bd-primary {
+    background-color: #425ad1;
+    border-color: #425ad1;
+    color: #fff;
+}
+
+
+.gridview-pager {
+    margin-top: 20px; /* Adjust the top margin as needed */
+}
+
+.gridview-pager a, .gridview-pager span {
+    display: inline-block;
+    padding: 3px 9px;
+    margin: 0 1px;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #425ad1;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+}
+
+.gridview-pager a:hover {
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+}
+
+.gridview-pager .disabled,
+.gridview-pager .disabled:hover {
+    color: #868e96;
+    cursor: not-allowed;
+    background-color: #fff;
+}
